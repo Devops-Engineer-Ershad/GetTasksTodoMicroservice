@@ -4,7 +4,7 @@ metadata:
   name: get-tasks
   namespace: default 
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: get-tasks
   ports:
