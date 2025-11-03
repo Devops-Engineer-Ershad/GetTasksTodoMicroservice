@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: get-tasks-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: azure-application-gateway
   rules:
   - host: get-tasks.ak4t7.shop
     http:
